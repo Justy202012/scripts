@@ -202,7 +202,7 @@ local args = {
 
 game:GetService("ReplicatedStorage").rEvents.openCrystalRemote:InvokeServer(unpack(args))
 end)
-CategoryVariableHere:Button("Mythical Crystal",function()
+CategoryVariableHere:Button("Mythical Crystal",function(")
 local args = {
     [1] = "openCrystal",
     [2] = "Mythical Crystal"
